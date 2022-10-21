@@ -441,7 +441,7 @@ li{
     }
     
 }
-/* sgallery*/
+/* gallery*/
 .gallery{
     padding-top: 5rem ;
     padding-bottom: 5rem;
@@ -669,21 +669,7 @@ li{
     position: relative;
     font-family: Cambria;
  }
-.pricing-heading::after{
-    content: attr(head-shadow);
-    position: absolute;
-    left: 5px;
-    top: 2px;
-    width: 100%;
-    color: transparent;
-    -webkit-text-stroke: 1px rgb(0 0 0 / .2);
-    font-size: var(--fs-nav);
-    text-transform: uppercase;
-    font-weight: 600;
-    margin-bottom: .5rem;
-    letter-spacing: var(--letter-sp-1);
-   
-}
+
 .pricing-heading span{
     display: block;
     font-weight: 300;
@@ -851,6 +837,7 @@ li{
     letter-spacing: var(--letter-sp-1);
     font-size: var(--fs-nav);
     margin-bottom: 1rem;
+    font-style:italic;
     
 }
 .review-content span{
